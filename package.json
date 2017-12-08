@@ -9,7 +9,7 @@
     "dev": "npm run build:dev && npm run server:dev",
     "build:dev": "webpack -d",
     "build:prod": "webpack -p",
-    "server:dev":"copy src\\dev\\index.html dist\\index.html && webpack-dev-server --content-base dist/ --inline --port 3000 --hot --history-api-fallback",
+    "server:dev": "copy src\\dev\\index.html dist\\index.html && webpack-dev-server --content-base dist/ --inline --port 3000 --hot --history-api-fallback",
     "server:prod": "node app.js"
   },
   "repository": {
@@ -63,6 +63,7 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^4.4.1",
+    "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {

@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.formContainer {
+	background-color: #506361;
+	color: #fff;
+	border-radius: 10px;
+	padding: 25px;
+    margin-top: 50px;
+}
+
+.formContainer a:hover {
+	text-decoration: none;
+}
+
+.btn-submit {
+	background-color: #597C1F;
+}
+
+.errors > span {
+	display: block;
+	color: red;
+}
+
+.react-route-link {
+	color: #fff !important;
+}
+
+.position-fixed {
+	position: fixed !important;
+}
+
+.hvCenter {
+	height: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hvCenter-progress-bar {
+	width: 50% !important;
+	height: inherit;
+}

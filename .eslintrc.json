@@ -1,0 +1,103 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+	"node": true,
+	"jquery": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+	"comma-dangle": [
+	     "error",
+	     "never"
+	],
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"{
+    "env": {
+        "browser": true,
+        "es6": true,
+	"node": true,
+	"jquery": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+	"comma-dangle": [
+	     "error",
+	     "never"
+	],
+        "indent": [
+            "error":"tab",
+	    "no-tabs": 1
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "warn",
+            "double"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+	"eqeqeq": [
+	    "error",
+	    "always"
+	],
+	"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+	"max-len": [1, 120, 1, {"ignoreComments": true}],
+	"prop-types": [1],
+	"no-unused-expressions": "error",
+	"no-useless-concat": "error",
+	"block-scoped-var": "error",
+	"consistent-return": "error"
+    }
+}
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+	"eqeqeq": [
+	    "error",
+	    "always"
+	],
+	"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+	"max-len": [1, 120, 2, {"ignoreComments": true}],
+	"prop-types": [0],
+	"no-unused-expressions": "error",
+	"no-useless-concat": "error",
+	"block-scoped-var": "error",
+	"consistent-return": "error"
+    }
+}

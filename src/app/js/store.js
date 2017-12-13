@@ -16,7 +16,7 @@ const sagaMiddleware = createSagaMiddleware();
 let middleware = applyMiddleware(routerMiddleware(browserHistory), logger, thunk, promise(), sagaMiddleware);
 
 if(process.env.NODE_ENV !== 'production') {
-  middleware = compose(middleware, (window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({}) : compose));  
+  middleware = compose(middleware, (window.devToolsExtension ? window.devToolsExtension() : compose));  
 }
 
 const store = createStore(

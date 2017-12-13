@@ -34,7 +34,7 @@ class SignIn extends React.Component {
 		const minLength = len => val => val.length >= len;
 
 		return (
-			<div className="formContainer loginForm">
+			<div className="formContainer">
 				<Form model="signInStore" hideNativeErrors onSubmit={this.execSignin} className="form-horizontal">
 					<div className="field form-group">
 						<label className="col-lg-12 col-md-12 col-sm-12 text-left">

@@ -41,7 +41,7 @@ class SetPassword extends React.Component {
 		const isEmail = val => !isEmail(val);
 
 		return (
-			<div className="formContainer loginForm">
+			<div className="formContainer">
 				<ErrorMsg errors={this.props.setPasswordProps.failureMsgs} />
 				<SuccessMsg successMsg={this.props.setPasswordProps.successMsg} />
 				<Form 

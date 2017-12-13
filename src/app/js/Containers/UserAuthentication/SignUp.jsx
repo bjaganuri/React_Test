@@ -42,7 +42,7 @@ class SignUp extends React.Component {
 
 		const asyncCheckAvailability = query => new Promise((resolve, reject) => {
 			$.ajax({
-				url: "https://design-spa-amd.herokuapp.com/users/checkUserChoiceAvailability?"+query,
+				url: "/checkUserChoiceAvailability?"+query,
 				method: "GET",
 				dataType: "json",
 				success(response) {
@@ -55,7 +55,7 @@ class SignUp extends React.Component {
 		});
 
 		return (
-			<div className="formContainer loginForm">
+			<div className="formContainer">
 				<Form 
 					model="signUpStore" 
 					hideNativeErrors onSubmit={this.execSignup} 

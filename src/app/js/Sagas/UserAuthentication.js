@@ -143,7 +143,7 @@ export function* Signup(action) {
 			payload: {
 				status: "Success", 
 				failureMsgs: [], 
-				successMsg: <span>You have registered successfully... Click here to <Link to={"login"} className="react-route-link">Login</Link>!!!</span> 
+				successMsg: <span>You have registered successfully... Click here to <Link to={"/authenticate/login"} className="react-route-link">Login</Link>!!!</span> 
 			}
 		})
 	}
@@ -234,7 +234,7 @@ export function* SetPwdResetPwd(action) {
 			type: "USER_RESET_PWD_FULFILLED",
 			payload: {
 				authSuccess: false, 
-				successMsg: <span>Password updated successfully!!! Click here to <Link to={"login"} className="react-route-link">Login</Link>!!!</span>, 
+				successMsg: <span>Password updated successfully!!! Click here to <Link to={"/authenticate/login"} className="react-route-link">Login</Link>!!!</span>, 
 				recoveredData: {}, 
 				failureMsgs: []
 			}
